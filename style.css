@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  background: #fdfcdc;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+
+h1 {
+  font-style: font-family:'Sansita Swashed', cursive;
+  color: #90be6d;
+  background: linear-gradient(90deg, rgba(173,247,245,1) 7%, rgba(211,255,243,1) 21%, rgba(186,253,190,1) 60%, rgba(221,255,218,1) 85%, rgba(212,255,202,1) 97%, rgba(213,255,213,1) 100%);
+  border-radius: 4px;
+  box-shadow: 10px 10px green;
+}
+  
+.list {
+  border-style: solid;
+  border-width: 2px;
+  border-color: green; 
+}
+.box{
+  background: linear-gradient(90deg, rgba(173,247,245,1) 7%, rgba(211,255,243,1) 21%, rgba(186,253,190,1) 60%, rgba(221,255,218,1) 85%, rgba(212,255,202,1) 97%, rgba(213,255,213,1) 100%);
+  border-radius: 4px;
+  box-shadow: 10px 10px green;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: #90be6d;
+   color: white;
+   text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+.footer ul{
+  
+  list-style: none;
+}
+
+.footer li{
+  background-color: #90be6d;
+  margin: 0 15px;
+  
+}
+
+button {
+  border: 1px solid #3498db;
+  bacground: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition-duration: 0.8s;
+  overflow: hidden;
+  display:inline-block;
+  border-radius: 2em;
+
+}
+
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.question {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+

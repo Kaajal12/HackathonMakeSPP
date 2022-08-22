@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      u1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      a:link,
+      a:visited {
+        display: block;
+        width: 120 px;
+        background-color: #90e0ef;
+        color: white;
+        text-decoration: none;
+        text-allign: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 5px;
+      }
+      a:hover,
+      a:active {
+        background-color: #023e8a;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Environment Quiz</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    
+
+    <div id="content">
+      <p style = "font-size: 55px; font-family: Impact, Charcoal, sans-serif;">
+        Are you a threat to the environment? Take this quiz to find out!
+      </p>
+      <p>
+        Instructions: Select your answer for the following questions. You
+        will receieve a score at the end.
+      </p>
+      <img
+        src="https://cdn.glitch.com/12709b74-c7c4-4a32-9132-558cf3e65f9e%2Fadventures.jpeg?v=1602355271023"
+      />
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="question">
+      <h2>
+        Good Morning! It's time to brush your teeth. After filling your cup with
+        water and wetting your toothbrush, do you leave the water on or off?
+      </h2>
+      <img
+        src="https://cdn.glitch.com/12709b74-c7c4-4a32-9132-558cf3e65f9e%2Fteeth.jpeg?v=1602362433553"
+      />
+      <div class="answer1">
+        <br />
+        <button id="q1a1">I leave it on.</button>
+        <button id="q1a2">I turn it off, of course.</button>
+        <button id="q1a3">I don't know; I forgot.</button>
+      </div>
+
+      <h2>
+        After a quick morning workout, it's time for a beverage. What will you
+        drink?
+      </h2>
+      <img
+        style="height: 300px;"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtlPVwjuG-i1NKUq6ro3RBw9BgBEJnwuRdGg&usqp=CAU"
+      />
+      <div class="answer2"></div>
+      <br />
+      <button id="q2a1">Iced coffee from starbucks</button>
+      <button id="q2a2">Glass of cold water</button>
+      <button id="q2a3">Can of soda</button>
+    </div>
+
+    <h2>
+      Your dog needs to use the restroom! You take your energetic border collie
+      on a walk around your neighborhood and it leaves a huge pile of feces on a
+      patch of grass. You didn't bring a dog poop bag, but nobody is around...
+    </h2>
+    <img
+      style="height:300px;"
+      src="https://i.pinimg.com/originals/fd/b7/8c/fdb78cf590135a9c92b88cb8dbabfbfc.jpg"
+    />
+    <div class="answer3">
+      <br />
+      <button id="q3a1">
+        Feces is harmful to the environment, so I better go home and get a bag.
+      </button>
+      <button id="q3a2">
+        My neighbor should pick it up since it's on their lawn.
+      </button>
+      <button id="q3a3">Dog waste is a great fertilizer.</button>
+    </div>
+
+    <h2>
+      Your fridge lack groceries, but luckily the supermarket is only a driving
+      distance of 5 minutes away from your house. Tired from an earlier workout,
+      will you ride a bicycle, take the VTA, or drive?
+    </h2>
+    <img
+      style="height: 300px;"
+      src="https://thumbor.thedailymeal.com/w0tpcPdEwGnFTE-7-Q5eEo3BGQs=//https://www.thedailymeal.com/sites/default/files/story/2016/supermarketcart.JPG"
+    />
+    <div class="answer4">
+      <br />
+      <button id="q4a1">My legs are sore, but I will ride the bicycle.</button>
+      <button id="q4a2">A 5-minute drive won't do any harm.</button>
+      <button id="q4a3">
+        I'll take the VTA.
+      </button>
+    </div>
+
+    <h2>
+      On the way to the supermarket, you realize that you forgot to turn off the
+      kitchen lights. What are you going to do?
+    </h2>
+    <img
+      style="height:300px;"
+      src="https://cdn.glitch.com/12709b74-c7c4-4a32-9132-558cf3e65f9e%2Fkitchenlights.jpg?v=1602361574915"
+    />
+    <div class="answer5">
+      <br />
+      <button id="q5a1">Go back and quickly turn them off.</button>
+      <button id="q5a2">My fish needs the light.</button>
+
+      <button id="q5a3">
+        Time is more valuable than electricity. I will continue my trip to the
+        supermarket.
+      </button>
+    </div>
+
+    <h2>
+      You go to a store and see a recycling bin. It is on sale, should you buy
+      it?
+    </h2>
+    <img
+      src="https://cdn.glitch.com/12709b74-c7c4-4a32-9132-558cf3e65f9e%2Fbin.jpeg?v=1602362735004"
+    />
+    <div class="answer6">
+      <br />
+      <button id="q6a1">Of course, mine at home is getting old!</button>
+      <button id="q6a2">No, I'm saving my money.</button>
+      <button id="q6a3">I only need a trash can!</button>
+    </div>
+
+    <h2>
+      It is your bedtime, and you are tucked into your cozy blankets already. However, the television is still streaming a 
+      tv channel you often watch before falling asleep. The remote control is all the way across the room and you are already
+      very sleepy. Well? Are you going to turn it off?
+    </h2>
+    <img
+      style="height: 300px"
+      src="https://media-cdn.tripadvisor.com/media/photo-s/0a/fa/4a/a1/my-cozy-room-at-night.jpg"
+    />
+    <div div class="answer7">
+      <div>
+        <br />
+        <button id="q7a1">Nah, I'll do it in the morning.</button>
+        <button id="q7a2">I am tired, but I will get up and turn it off.</button>
+        <button id="q7a3">I'll just lay in bed for 5 more minutes...</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">Complete this quiz to see the result!</h2>
+    </div>
+  </body>
+</html>
